@@ -21,7 +21,7 @@ for i in range(3):
     urls.append(url)
 
 process_url_clicked = st.sidebar.button("Process URLs")
-file_path = "/Users/priyadarshiniramakrishnan/Documents/langchain/2_news_research_tool_project/faiss_store_openai.pkl"
+file_path = "/Documents/langchain/2_news_research_tool_project/faiss_store_openai.pkl"
 
 main_placeholder = st.empty()
 llm = OpenAI(temperature=0.9, max_tokens=500)
